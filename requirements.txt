@@ -9,5 +9,3 @@ fastapi
 uvicorn
 pydantic
 scikit-learn
-sqlalchemy
-xgboost
