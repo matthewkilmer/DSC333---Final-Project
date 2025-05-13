@@ -36,6 +36,7 @@ def predict_stats_from_trend(player_data):
         # Predict the stat for the "next season" (season index 5)
         next_season = [[5]]
         predicted_value = model.predict(next_season)[0]
-        predictions["predicted_" + stat] = float(round(predicted_value, 4))
+        predictions[stat] = float(round(predicted_value, 2))
 
     return predictions
+
