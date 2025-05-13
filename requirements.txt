@@ -1,0 +1,13 @@
+matplotlib
+seaborn
+nba_api
+pandas
+mysql-connector-python
+python-dotenv
+streamlit
+fastapi
+uvicorn
+pydantic
+scikit-learn
+sqlalchemy
+xgboost
